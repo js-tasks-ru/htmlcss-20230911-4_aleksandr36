@@ -1,0 +1,74 @@
+:root {
+  --padding: 10px;
+  --padding-lg: 15px;
+  --padding-sm: 5px;
+
+  --margin: 8px;
+  --margin-lg: 12px;
+  --margin-sm: 5px;
+
+  --font-size: 16px;
+  --font-size-lg: 24px;
+  --font-size-sm: 13px;
+
+  --color-light: #fff;
+}
+
+body,
+body * {
+  margin: 0;
+  padding: 0;
+  color: var(--color-light);
+}
+
+h1,
+h2 {
+  padding: var(--padding);
+}
+
+header h1 {
+  text-align: center;
+  background-color: red;
+}
+
+nav {
+  background-color: orange;
+  padding: var(--padding);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  padding: var(--padding);
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  font-size: var(--font-size-lg);
+  margin: 0 var(--margin);
+}
+
+main {
+  background-color: green;
+  padding: var(--padding);
+}
+
+main article {
+  padding: var(--padding);
+  background-color: blue;
+}
+
+main ul,
+main ol {
+  list-style-position: inside;
+}
+
+footer {
+  background-color: violet;
+  font-size: var(--font-size-lg);
+  text-align: center;
+  padding: var(--padding);
+}
