@@ -5,7 +5,9 @@
     --black: #212429;
     --pink: #F784AD;
     --purple: #7048E8;
+    --purple-darken: #5028C6;
     --blue: #374FC7;
+    --blue-darken: #2342C0;
     --red: #F03D3E;
     --grey-1: #F8F9FA;
     --grey-2: #DDE2E5;
@@ -16,7 +18,18 @@
     --success: var(--blue);
 
     --primary: var(--blue);
+    --primary-darken: var(--blue-darken);
     --secondary: var(--purple);
+    --secondary-darken: var(--purple-darken);
+
+    --border-color: var(--grey-3);
+    --border-color-darken: var(--grey-4);
+
+    --text-color: var(--black);
+    --text-color-gray: var(--grey-4);
+    --text-color-light: var(--white);
+
+    --font-size: 1rem;
 }
 
 * {
