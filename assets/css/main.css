@@ -17,8 +17,27 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
+
+    --padding: 1.25rem;
+    --margin: .25rem;
+
+    --primary: var(--blue);
+    --primary-darken: var(--blue-darken);
+    --secondary: var(--purple);
+    --secondary-darken: var(--purple-darken);
+
+    --border-color: var(--grey-3);
+    --border-color-darken: var(--grey-4);
+    --border-radius: 8px;
+
+    --text-color: var(--black);
+    --text-color-gray: var(--grey-4);
+    --text-color-light: var(--white);
+
+    --font-size: 1rem;
 }
 
 * {
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
