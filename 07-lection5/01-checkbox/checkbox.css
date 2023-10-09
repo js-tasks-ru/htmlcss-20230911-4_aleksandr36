@@ -47,6 +47,6 @@
     opacity: 0;
 }
 
-.checkbox__input:focus ~ .checkbox__state .checkbox__control {
-    border-color: var(--grey-4);
+.checkbox__input:focus ~ .checkbox__state .checkbox__title {
+    text-decoration: underline;
 }
