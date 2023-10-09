@@ -37,3 +37,16 @@
     background: #4263eb;
     border-color: #4263eb;
 }
+
+.checkbox__input:disabled ~ .checkbox__state .checkbox__control {
+    background: var(--grey-2);
+    border-color: var(--grey-2);
+}
+
+.checkbox__input:disabled ~ .checkbox__state .checkbox__icon {
+    opacity: 0;
+}
+
+.checkbox__input:focus ~ .checkbox__state .checkbox__control {
+    border-color: var(--grey-4);
+}
