@@ -1,4 +1,7 @@
 @import '../fonts/fonts.css';
+@import '../../components/header/header.css';
+@import '../../components/main/main.css';
+@import '../../components/footer/footer.css';
 
 :root {
     --white: #ffffff;
@@ -17,6 +20,10 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
+
+    --padding: 10px;
+    --padding-sm: 5px;
+    --padding-lg: 15px;
 }
 
 * {
